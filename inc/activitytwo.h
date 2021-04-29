@@ -1,3 +1,14 @@
+/**
+ * @file activitytwo.h
+ * @author Nikhil Jose (nikhiljoseniju@gmail.com)
+ * @brief headerfile for activitytwo.c containing function declerations and macros
+ * @version 0.1
+ * @date 2021-04-29
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
+
 //Header guards
 
 

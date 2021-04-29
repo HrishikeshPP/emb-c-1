@@ -1,4 +1,13 @@
-
+/**
+ * @file activityone.h
+ * @author Nikhil Jose (nikhiljoseniju@gmail.com)
+ * @brief headerfile for activityone.c containing function declerations and macros
+ * @version 0.1
+ * @date 2021-04-29
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 //Header guards
 
 #ifndef _ACTIVITYONE__H_
@@ -15,9 +24,7 @@
 
 #define LED (1<<PB0)
 #define SEATSWITCH (1<<PD0)
-#define HeaterButton (1<<PD2)
-#define InterruptType ((1<<ISC01))
-#define InterruptMask (1<<INT0)
+#define HeaterButton (1<<PD1)
 #define set |=
 #define clear &=~
 
