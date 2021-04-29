@@ -1,8 +1,8 @@
 /**
  * @file activitytwo.c
  * @author Nikhil Jose (nikhiljoseniju@gmail.com)
- * @brief ADC conversion to convert analogue value of a temperature sensor(potentiometer in simulation)
- * into a digital value
+ * @brief library containing function for ADC conversion to convert analogue value of a 
+ * temperature sensor(potentiometer in simulation) into a digital value
  * @version 0.1
  * @date 2021-04-28
  * 
