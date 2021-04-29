@@ -10,27 +10,34 @@
  */
 
 
-#include "port.h"
-
+#include "activityone.h"
+#include "activitytwo.h"
 
 int main(void)
 {
+    /**
+     * @brief initialising analog to digital conversion
+     * 
+     */
+    InitADC();
 
+    /** 
+     * @brief creating a temporary variable to store the Analog to Digital converted value
+     *
+     */
+    uint16_t temp;
+
+    /**
+     * @brief initiaising ports for led and switches
+     * 
+     */
     port();
 
     while(1)
     {
-       if((!((PIND)&(1<<PD0)))&& (!((PINC)&(1<<PC0)))) // SEAT SWITCH PRESSED AND HEATER SWITCH PRESSED
-       {
-           PORTB |= (1<<PB0);
-            _delay_ms(200);
-       }
-       else
-       {
-           PORTB &=~ (1<<PB0);
-            _delay_ms(20);
-       }
-
+      LedBlink();
+      temp = ReadADC(0);
+      _delay_ms(200);
     }
 
     return 0;

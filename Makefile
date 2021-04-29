@@ -1,10 +1,11 @@
-PROJ_NAME = Blinky
+PROJ_NAME = seatheater
 
 BUILD_DIR = Build
 
 # All Source code files
 SRC = main.c\
-src/port.c
+src/activityone.c\
+src/activitytwo.c
 
 # All header file paths
 INC = -I inc
