@@ -13,6 +13,7 @@
 #include "activityone.h"
 #include "activitytwo.h"
 #include "activitythree.h"
+#include "activityfour.h"
 
 
 int main(void)
@@ -36,6 +37,8 @@ int main(void)
      */
     InitADC();
 
+    USARTInit(103);
+
     /** 
      * @brief creating a temporary variable to store the Analog to Digital converted value
      *
@@ -57,10 +60,11 @@ int main(void)
 
       LedBlink();
 
-        temp = ReadADC(0);
-        _delay_ms(200);
-        OCR1A = temp;
-     _delay_ms(200);
+      temp = ReadADC(0);
+      _delay_ms(200);
+      OCR1A = temp;
+       _delay_ms(200);
+      USARTWriteChar(temp);
 
 
       }

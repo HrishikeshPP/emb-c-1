@@ -7,6 +7,7 @@ SRC = main.c\
 src/activityone.c\
 src/activitytwo.c\
 src/activitythree.c\
+src/activityfour.c\
 
 # All header file paths
 INC = -I inc
