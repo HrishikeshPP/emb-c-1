@@ -14,9 +14,7 @@
 ## Activity Three
 ![Description](https://github.com/nikhiljose21/emb-c/blob/main/photo/act3.png)
 
-## Activity Four
-![Description](https://github.com/nikhiljose21/emb-c/blob/main/photo/act4.png)
 
 ## Final Simulation
-https://github.com/nikhiljose21/emb-c/blob/main/photo/act_final.png
+![Description](https://github.com/nikhiljose21/emb-c/blob/main/photo/act_final.png)
 
