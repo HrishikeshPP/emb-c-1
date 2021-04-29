@@ -5,4 +5,18 @@
 |:--:|:--:|:--:|
 |[![Cpp Badge](https://img.shields.io/badge/CppCheck-Passing-%2302e040)](https://github.com/nikhiljose21/emb-c/actions/workflows/CodeQuality.yml)|[![Compile-Linux Badge](https://img.shields.io/badge/Compile--Linux-Passing-%2302e040)](https://github.com/nikhiljose21/emb-c/actions/workflows/Compile.yml)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ea12bf5c9c974db488ef32a5454d4d42)](https://www.codacy.com/gh/nikhiljose21/emb-c/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=nikhiljose21/emb-c&amp;utm_campaign=Badge_Grade)|
 
+## Activity One
+https://github.com/nikhiljose21/emb-c/blob/main/photo/act1.png
+
+## Activity Two
+https://github.com/nikhiljose21/emb-c/blob/main/photo/act2.png
+
+## Activity Three
+https://github.com/nikhiljose21/emb-c/blob/main/photo/act3.png
+
+## Activity Four
+https://github.com/nikhiljose21/emb-c/blob/main/photo/act4.png
+
+## Final Simulation
+https://github.com/nikhiljose21/emb-c/blob/main/photo/act_final.png
 
